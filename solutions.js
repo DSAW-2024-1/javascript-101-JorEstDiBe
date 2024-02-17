@@ -69,6 +69,7 @@ function isPrime(n) {
   // Add your code here
   if(typeof n==='number') {
     let count=0;
+    let i=1;
     while(i<=n) {
       if(n%i === 0) {
         count++;
